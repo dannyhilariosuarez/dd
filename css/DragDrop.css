@@ -83,6 +83,7 @@ svg:not(:root) {
     border-radius: 2px;
     text-align: center;
     height: 120px;
+    border: 2px solid transparent;
 }
 
 .over {
