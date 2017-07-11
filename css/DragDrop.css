@@ -1,15 +1,32 @@
-﻿ 
+ 
 #main {
     background-color: white;
     position: relative;
     min-height: 15%;
     margin-top: 100px;
-    /*background-image: url('../images/background.jpg');*/
-     background-image: url('../images/background.jpg');
+    border-radius: 2px;	
+}
+
+#h2_dd {
+    padding: 0 20px;
+    color: #2196F3;
+}
+
+.link{
+	color: #2196F3;
+	font-weight: 600;
+}
+
+.heart{
+	color: red;
+}
+
+#div_footer{
+	    text-align: center;
 }
 
 body{
-    background-image: url('../images/background2.jpg');
+    background-image: url('../images/background5.jpg');
     background-repeat:no-repeat;
     background-size:cover;
 } 
@@ -79,17 +96,12 @@ svg:not(:root) {
 #ol_menu li { 
         width: 190px;
     margin: 5px 10px 10px 10px;
-    background-color: rgba(244, 67, 54, 0.42);
+    background-color: rgba(33, 150, 243, 0.33);
     border-radius: 2px;
     text-align: center;
     height: 120px;
     border: 2px solid transparent;
-}
-
-.over {
-    border: 2px dashed #000;
-}
-
+} 
 
 .container {
     margin: 0 auto;
