@@ -20,7 +20,7 @@ a{
 .love {
   color: red; }
 
-.link {
+.linkDa {
   color: #9C27B0; 
 }
 
@@ -124,7 +124,7 @@ svg:not(:root) {
 
 @media screen and (min-width:1380px) {
     #ol_menu li { 
-        margin:0;
+        margin:5px;
     }
 }
 
