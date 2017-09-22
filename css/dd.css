@@ -40,7 +40,7 @@ body{
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
-    padding: 0 60px;
+    padding: 10px 38px;
 }
 
 .imgTitle {
@@ -95,14 +95,20 @@ svg:not(:root) {
 } 
 
 #ol_menu li { 
-        width: 190px;
-    margin: 5px 10px 10px 10px;
+    width: 190px;
+    margin: 2px auto;
     background-color: rgba(33, 150, 243, 0.33);
     border-radius: 2px;
     text-align: center;
     height: 120px;
     border: 2px solid transparent;
-} 
+}  
+
+@media screen and (min-width:1380px) {
+    #ol_menu li { 
+        margin:0;
+    }
+}
 
 .container {
     margin: 0 auto;
