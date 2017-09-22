@@ -31,7 +31,7 @@ function focusMenu(e) {
 
     if (document.getElementsByClassName('drag').length == 0) {
         var style = {
-            color: 'rgba(244, 67, 54, 0.57)',
+            color: '#2196F3',
             cursor: 'move',
             position: 'absolute',
             fontsize: '30px!important'
