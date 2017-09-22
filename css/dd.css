@@ -132,8 +132,7 @@ svg:not(:root) {
 
 body {
     margin: 0px;
-    background-color: #dfdfdf;
-    color: #025C89;
+    background-color: #dfdfdf; 
     background-repeat: repeat-x;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 9pt;
