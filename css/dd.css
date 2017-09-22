@@ -7,6 +7,12 @@
     border-radius: 2px;	
 }
 
+.monospace {
+  font-family: monospace; }
+
+.footer-font {
+  font-size: 0.9rem; }
+
 #h2_dd {
     padding: 0 20px;
     color: #2196F3;
